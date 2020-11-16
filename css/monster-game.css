@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+}
+.content{
+    text-align: center;
+}
+header{
+    position: absolute;
+    left: 191px;
+    top: 15px;
+    z-index: 4;
+}
+header img{
+    position: relative;
+}
+header p{
+    color: #31B44B;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 12px;
+}
+.lighting{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+.monster{
+   position: absolute;
+}
+.image_game{
+    position: absolute;
+    background-image: url("../images/frame.png");
+    left: 100px;
+    top: 100px;
+    width: 545px;
+    height: 629px;
+    z-index: 3;
+    overflow: hidden;
+}
+.pic_box{
+    position: relative;
+    left: 91px;
+    top: 84px;
+    width: 367px;
+    height: 460px;
+    z-index: 2;
+    overflow: hidden;
+}
+.face{
+    position:relative;
+    left:0px;
+    top:0px;
+    z-index: 1;
+}
+#head{
+    height: 172px;
+}
+#eye{
+    height: 79px;
+}
+#nose{
+    height: 86px;
+}
+#mouth{
+    height: 117px;
+}
